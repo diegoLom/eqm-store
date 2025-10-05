@@ -1,5 +1,9 @@
 // pages/products/[id].js
 import { getProduct, getProducts } from '../../lib/products';
+import AddToCart from '../../components/AddToCart';
+
+
+import { getProduct, getProducts } from '../../lib/products';
 
 export default function ProductDetail({ product }) {
   return (

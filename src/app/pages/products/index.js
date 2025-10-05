@@ -1,5 +1,6 @@
 // pages/products/index.js
 import { getProducts } from '../../lib/products';
+import ProductCard from '../../components/ProductCard';
 
 export default function ProductsPage({ products }) {
   return (
